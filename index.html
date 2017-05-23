@@ -5,6 +5,30 @@
 		<title></title>
 	</head>
 	<body>
-		<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=479408221&auto=1&height=66"></iframe>
+			<div class="container" style="padding-top: 80px;">
+    <div class="row">
+      
+      <div class="panel panel-default">
+    	  <div class="panel-heading">网易云音乐搜索<b><font style="color: red;font-size: 20px;"></font></b></div>
+    	  <div class="panel-body">
+    	    <form method="get" action="/CloudMusic" id="formId">
+    	    <input type="hidden" name="method" value="CloudMusicByKey">
+    	    <input type="hidden" name="currentPage" value="1">
+    	      <div class="input-group">
+    	        <input class="form-control" id="songKey" name="songKey" placeholder="如: 小幸运" autocomplete="off" value="">
+    	        <span class="input-group-btn">
+    	          <button class="btn btn-default" type="submit" onclick="return search();">搜索</button>
+    	        </span>
+    	      </div>
+    	      <label for="songKey" generated="true" class="error"><font color="red"></font></label>
+    	         <div class="checkbox">
+              <label>
+                <input type="checkbox" name="h" value="h" checked="checked"> 优先选择高音质
+              </label>
+            </div>
+    	    </form>
+    	  </div>
+    	</div>
+
 	</body>
 </html>
