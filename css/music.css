@@ -1,0 +1,62 @@
+
+.onutil {  
+    transition: left ease .5s;  
+    left: 0px;  
+}  
+.offutil{
+    transition:left ease .5s;
+    left: -462px;
+}
+.playutil {  
+    z-index: 100;  
+    position: fixed;  
+    bottom: 125px;  
+    left: -462px;  
+    width: 485px;  
+    height: 115px;  
+    border: 1px solid #433B38;  
+    border-radius: 0px 4px 4px 0px;  
+    box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.5);  
+}  
+.playutil .playtouming {  
+    width: 485px;  
+    height: 115px;  
+    opacity: 0.85;  
+    filter: alpha(opacity=85);  
+    background-color: #433B38;  
+}  
+  
+.songimgdiv {  
+    position: absolute;  
+    top: 0px;  
+    margin: 8px;  
+    margin-left: 20px;  
+    border: 1px solid #433B38;  
+    border-radius: 4px;  
+    box-shadow: 1px 1px 2px 2px rgba(255, 255, 255, 0.3);  
+}  
+.control {  
+    position: absolute;  
+    top: 0px;  
+    left: 130px;  
+    width: 330px;  
+}  
+.control>p {  
+    width: 330px;  
+    text-align: center;  
+    margin: 15px auto;  
+    color: #FFFFFF;  
+    size: 5px;  
+}  
+.buttons {  
+    text-align: center;  
+}  
+.buttons a {  
+    margin: 0px 15px;  
+}  
+.playdivbtn {  
+    width: 23px;  
+    position: absolute;  
+    top: 0px;  
+    right: 0px;  
+}
