@@ -23,7 +23,7 @@
 			var password=document.getElementById("password").value
 			
 			if(username=="丹丹" && password=="lidingheng"){
-				alert("输入正确")
+//				alert("输入正确")
 				window.location.href="home.html";
 				return false
 			}else{
@@ -77,40 +77,43 @@
 <script>
 		
 			var zp2 = new zplayer({
-				autoPlay: false,/*是否开启自动播放,默认false*/
+				autoPlay: true,/*是否开启自动播放,默认false*/
 				lrcStart: false,
 		        element: document.getElementById("player2"),
 		        lrcStart: 1,/*是否开启歌词功能 ，默认false（为true时musics集合中需要传入lrc字段。）*/
 		        musics: [{
-	                title: "暧昧",
-	                author: "薛之谦",
-	                url: "http://dl.stream.qqmusic.qq.com/M5000017R91I4gIWij.mp3?vkey=6EE65EAD7862B4F205163337EF23B36DC7EFA6C6364C47FE39EBACE1E58F64710C2B5F64021FFC6BE0E746C5022CC98D6D5EBB1C8F55FC00&guid=1234567890&uin=1008611&fromtag=8",
-	                pic: "http://p1.music.126.net/fNbj5uDwltSDLbETdnEYYQ==/109951163069265719.jpg?param=300x300",
-	                lrc: "[00:00.00] 作曲 : 薛之谦[00:01.00] 作词 : 薛之谦[00:14.800]反正现在的感情 都暧昧[00:20.130]你大可不必为难 找般配[00:24.820]付出过的人排队 谈体会[00:29.290]趁年轻别害怕一个人睡[00:34.170]可能是现在感情 太昂贵[00:39.080]让付出真心的人 好狼狈[00:43.950]还不如听首情歌 的机会 忘了谁[00:54.880]感情像牛奶一杯 越甜越让人生畏[01:04.320]都早有些防备 润色前的原味[01:13.350]所以人们都拿起咖啡 把试探放在两人位[01:23.860]距离感一对 就不必再赤裸相对[01:31.820]反正现在的感情 都暧昧[01:36.590]你大可不必为难 找般配[01:41.500]付出过的人排队 谈体会[01:46.150]弃之可惜 食而无味[01:51.080]可能是现在感情 太珍贵[01:55.630]让付出真心的人 好疲惫[02:00.600]谁不曾用过卑微的词汇 想留住谁[02:49.110]还贪恋着衣衫昂贵 却输给了廉价香水[02:59.080]他先诱你入位 还刻意放低了分贝[03:08.310]可感情越爱越妩媚 像烂掉的苹果一堆[03:17.980]连基因都不对 还在意什么鱼腥味[03:27.020]反正现在的感情 都暧昧[03:31.720]你大可不必为难 找般配[03:36.500]何必给自己沉迷 的机会[03:41.280]不如用误会来结尾[03:46.320]反正现在的我们 算暧昧[03:50.570]我愿意给的感情 请浪费[03:55.740]反正流过的眼泪 难收回[04:00.310]就别再安慰[04:05.450]看你入眠的侧脸 有多美[04:10.820]和你丢下的一切 好匹配[04:16.870]我还以为我能 多狼狈[04:23.090]我自以为[04:29.150]制作人：郑伟[04:30.160]编曲：薛之谦 郑伟[04:31.190]混音：郑伟[04:31.940]大提琴：周润青[04:32.730]女声：孟楠[04:33.430]合音：薛之谦 张石狄[04:34.190]录音：莫家伟[04:34.930]母带：Chris Gehringer"
-	            },{
-	                title: "莎啦啦",
-	                author: "蒋雪璇",
-	                url: "http://music.163.com/song/media/outer/url?id=537510674.mp3",
-	                pic: "http://p1.music.126.net/t633x_KG8Zcd6SNf7xZdYA==/109951163142569560.jpg?param=300x300",
-	                lrc: "[00:00.00] 作曲 : 蒋雪璇[00:01.00] 作词 : 蒋雪璇[00:04.43]编曲：伍华/江潮[00:05.34]录音：Ethan/付威[00:06.30]混音：Ethan[00:07.23]和声：常玮[00:08.08]制作人：伍华[00:08.97]监制：潇喆Sean[00:09.89]OP：腾研国际[00:11.30]夕阳西下 蝴蝶回家[00:16.24]落叶惊风 缠绵飘荡[00:21.09]黑幕拉下 光阴睡下[00:26.21]你要去哪 带上我吧吧吧吧吧[00:32.14]你说希望陪我到老[00:34.57]就算撒娇变成唠叨[00:37.09]就算无法轻盈舞蹈[00:39.60]爱的小船也不会抛锚[00:41.89]你说我是你命中的妖[00:44.45]才会让你神魂颠倒[00:46.86]你要和我唱一曲歌谣[00:49.32]忘记糟糕忘掉烦恼[00:54.43]wosha shalala la[00:56.89]wosha shalala[00:59.34]wosha shalala la[01:01.89]wosha shalala[01:04.32]wosha shalala la[01:06.72]wosha shalala[01:09.15]wosha shalala la[01:11.71]wosha shalala la la[01:35.48]咖啡奶茶 多味情话[01:40.42]淡淡眼妆 相思相望[01:45.39]心事绵长 指尖微凉[01:50.39]把我送送送送给你啦[01:56.20]我们一起去无人小岛[01:58.69]像退江湖般的逍遥[02:01.16]养个猫猫 种个花草[02:03.25]有你在就不觉得无聊[02:06.07]一起吃早餐吃到夜宵[02:08.64]你身强体壮我心灵手巧[02:11.18]管那野兽卖弄风骚[02:13.50]不用担心你被她带跑[02:16.02]wosha shalala la[02:18.52]wosha shalala[02:21.03]wosha shalala la[02:23.51]wosha shalala[02:25.92]wosha shalala la[02:28.38]wosha shalala[02:30.94]wosha shalala la[02:33.35]wosha shalala[02:35.77]wosha shalala la[02:38.32]wosha shalala[02:40.80]wosha shalala la[02:43.26]wosha shalala[02:45.69]wosha shalala la[02:48.17]wosha shalala[02:50.61]wosha shalala la[02:53.11]wosha shalala la la[02:57.39]"
-	            },{
-	                title: "That Girl",
-	                author: "Olly Murs",
-	                url: "http://music.163.com/song/media/outer/url?id=440208476.mp3",
-	                pic: "http://p1.music.126.net/_dPhSlbDz23MjXUEYeBGRw==/18820340533734696.jpg?param=300x300",
-	                lrc: "[by:刺客辣条之法与鲨][00:00.00]There's a girl but I let her get away[00:05.40]It's all my fault cause pride got in the way[00:11.40]And I'd be lying if I said I was ok[00:16.00]About that girl the one I let get away[00:21.00]I keep saying no[00:23.00]This can't be the way we're supposed to be[00:26.00]I keep saying no[00:29.00]There's gotta be a way to get you close to me[00:31.00]Now I know you gotta[00:33.490]Speak up if you want somebody[00:36.490]Can't let him get away, oh no[00:38.490]You don't wanna end up sorry[00:41.490]The way that I'm feeling everyday[00:43.490](Don't you know)[00:44.00]No no no no[00:46.490]There's no home for the broken heart[00:50.490](Don't you know)[00:50.00]No no no no[00:52.490]There's no home for the broken[00:53.490]There's a girl but I let her get away[00:59.490]It's my fault cause I said I needed space[01:04.490]I've been torturing myself night and day[01:10.490]About that girl, the one I let get away[01:15.490]I keep saying no[01:17.490]This can't be the way it was supposed to be[01:20.490]I keep saying no[01:23.490]There's gotta be a way to get you[01:24.490]There's gotta be a way to get you[01:25.490]Close to me[00:26.490]You gotta[01:27.490]Speak up if you want somebody[01:30.490]Can't let him get away, oh no[01:32.490]You don't wanna end up sorry[01:35.490]The way that I'm feeling everyday[01:37.490](Don't you know)[01:38.490]No no no no[01:40.490]There's no home for the broken heart[01:42.490](Don't you know)[01:43.490]No no no no[01:45.490]There's no home for the broken[01:48.490]No home for me[01:51.490]No home cause I'm broken[01:53.490]No room to breathe[01:55.490]And I got no one to bla-ame[01:59.490]No home for me[02:02.490]No home cause I'm broken[02:03.490]About that girl[02:05.490]The one I let get away[02:09.490]So you better[02:10.490]Speak up if you want somebody[02:13.490]You can't let him get away oh no[02:16.490]You dont wanna end up sorry[02:18.490]The way that I'm feeling everyday[02:20.490](Don't you know)[02:21.490]No no no no[02:23.490]There's no home for the broken heart[02:26.00](Don't you know)[02:26.490]No no no no[02:29.00]There's no home for the broken[02:31.490]Oh[02:32.490]You don't wanna lose at love[02:34.490]It's only gonna hurt too much[02:37.00]I'm telling you[02:37.490]You don't wanna lose at love[02:40.00]It's only gonna hurt too much[02:42.490]I'm telling you[02:43.490]You don't wanna lose at love[02:45.490]Cause There's no home for the broken heart[02:47.490]About that girl[02:49.490]The one I let get away"
-	            },{
-	                title: "云烟成雨",
-	                author: "房东的猫",
-	                url: "http://music.163.com/song/media/outer/url?id=513360721.mp3",
+		        	
+		        	title: "祈愿",
+	                author: "张艺兴",
+	                url: "http://dl.stream.qqmusic.qq.com/M500004McT000uwWh8.mp3?vkey=786B97370F08ADE4B1F68E22B995F36B64EDB42EDB1BA35341E271651B34AD7043F3E0245D7259962076B06B1FA2FB13B2750EFEA5F1820D&guid=1234567890&uin=1008611&fromtag=8",
 	                pic: "http://p1.music.126.net/DSTg1dR7yKsyGq4IK3NL8A==/109951163046050093.jpg?param=300x300",
-	                lrc: "[00:00] 作曲 : 少年佩\n[00:01] 作词 : 墨鱼丝\n[00:11]制作人：黎偌天\n[00:12]编曲：黎偌天\n[00:13]监制：李纤橙\n[00:14]\n[00:18]你的晚安 是下意识的恻隐\n[00:24]我留至夜深 治疗失眠梦呓\n[00:30]那封手写信 留在行李箱底\n[00:36]来不及 赋予它旅途的意义\n[00:43]若一切 都已云烟成雨\n[00:49]我能否 变成淤泥\n[00:52]再一次 沾染你\n[00:55]若生命 如过场电影\n[01:01]Oh让我再一次 甜梦里惊醒\n[01:13]我多想再见你\n[01:15]哪怕匆匆一眼就别离\n[01:19]路灯下昏黄的剪影\n[01:22]越走越漫长的林径\n[01:25]我多想再见你\n[01:28]至少玩笑话还能说起\n[01:32]街巷初次落叶的秋分\n[01:35]渐行渐远去的我们\n[01:53]若一切 都已云烟成雨\n[01:59]我能否 变成淤泥\n[02:01]再一次 沾染你\n[02:05]若生命 如过场电影\n[02:10]Oh让我再一次 甜梦里惊醒\n[02:19]我多想再见你\n[02:21]哪怕匆匆一眼就别离\n[02:26]路灯下昏黄的剪影\n[02:28]越走越漫长的林径\n[02:32]我多想再见你\n[02:34]至少玩笑话还能说起\n[02:38]街巷初次落叶的秋分\n[02:41]渐行渐远去的我们\n[02:49]站台 汽笛响起\n[02:52]想念是你的声音\n[02:55]我们提着过去 走入人群\n[03:02]寻找着一个位置 安放自己\n[03:13]我多想再见你\n[03:15]哪怕匆匆一眼就别离\n[03:19]路灯下昏黄的剪影\n[03:22]越走越漫长的林径\n[03:25]我多想再见你\n[03:28]至少玩笑话还能说起\n[03:31]街巷初次落叶的秋分\n[03:35]渐行渐远去的我们\n[03:41]\n[03:43]主唱：红鼻子小黑\n[03:44]制作人：黎偌天\n[03:46]监制：李纤橙\n"
+		        	
+	             
+
 	            },{
-	                title: "给陌生的你听 ",
-	                author: "G.G(张思源)",
-	                url: "http://music.163.com/song/media/outer/url?id=562594322.mp3",
-	                pic: "http://p1.music.126.net/LMPuItVrjn1Vi5c8vZZ90Q==/109951163309729098.jpg?param=300x300",
-	                lrc: "[00:00.00] 作曲 : G.G(张思源）[00:01.00] 作词 : G.G(张思源）[00:05.12]编曲：刘羽晟[00:21.02]这首歌写给你听[00:22.64]我想请你闭上眼睛[00:25.28]这首可能不太动听[00:27.71]但是我有足够的用心[00:30.80]这首歌写给你听[00:33.17]我想请你闭上眼睛[00:35.76]这首可能不太动听[00:38.29]但是我有足够的用心[00:41.06]OK 你我可能还没见过[00:43.49]那就先让这首把未曾听闻给打破[00:46.19]说实话我也没有什么十足的把握[00:48.86]能让你动心再次播放这首歌[00:51.65]我只是每天独自在家不知跟谁说说话[00:54.54]所以决定问问陌生的你过得还好吗[00:57.15]你还在上学读书或是毕业工作了[00:59.86]会不会跟我一样在外偶尔想想家[01:02.62]想问你今天早餐吃了没[01:04.82]会不会好吃的让我馋嘴流口水[01:07.12]你有没有养小猫小狗在你家里住[01:09.64]尽管让人头疼却又把你给守护[01:12.23]春天的风 微微的吹[01:15.33]吹过你的美[01:17.73]春天的风 微微的吹[01:20.58]我想这首能作陪[01:23.60]这首歌写给你听[01:25.71]我想请你闭上眼睛[01:28.40]这首可能不太动听[01:30.80]但是我有足够的用心[01:33.54]这首歌写给你听[01:35.94]我想请你闭上眼睛[01:38.62]这首可能不太动听[01:41.25]但是我有足够的用心[01:43.91]对了 你是什么星座[01:46.38]你最喜欢的颜色是彩虹里的哪个[01:48.76]你有没有在夜晚见过有流星划落[01:51.48]想问问你许下最傻的愿望是什么[01:54.11]突然好奇的想 我路过了街道[01:57.46]正好这首在你耳朵里播报[02:00.04]你认不得我 你在听我不知道[02:02.64]但这种缘分真的好好好奇妙[02:05.64]想一想 都觉得奇妙[02:07.82]想一想 该如何问好[02:10.72]尽管陌生  有你真好[02:13.22]我想你知道 我想你知道[02:15.91]想一想 都觉得奇妙[02:18.44]想一想 该如何问好[02:21.19]尽管陌生  有你真好[02:23.62]我想你知道 我想你知道[02:26.28]这首歌写给你听[02:28.08]我想请你闭上眼睛[02:30.71]这首可能不太动听[02:33.32]但是我有足够的用心[02:36.14]这首歌写给你听[02:38.67]我想请你闭上眼睛[02:41.51]这首可能不太动听[02:43.85]但是...[02:47.23]这首歌写给你听[02:49.48]我想请你闭上眼睛[02:51.67]这首可能不太动听[02:54.18]但是我有足够的用心[02:56.98]这首歌写给你听[02:59.87]我想请你闭上眼睛[03:02.59]这首可能不太动听[03:05.38]但是我有足够的用心[03:09.45]混音：王路遥"
+	                title: "忘记伤害",
+	                author: "林峰",
+	                url: "http://dl.stream.qqmusic.qq.com/M500000dUU0j1ZR34q.mp3?vkey=E4EF3ED69ACA7041E870F9817429251BB28337B9DEA6821EAE7111C14CBB62F44005901A3FBC6A1135261493EF9BB68BD0F0DE0CCA7B170F&guid=1234567890&uin=1008611&fromtag=8",
+	                pic: "http://p1.music.126.net/t633x_KG8Zcd6SNf7xZdYA==/109951163142569560.jpg?param=300x300",
+
+	            },{
+	                title: "黏黏",
+	                author: "周兴哲",
+	                url: "http://dl.stream.qqmusic.qq.com/M500003o3mjQ2GHeIW.mp3?vkey=9A9808D88BC310675AF75E5676CCC27E7C8F6CE0FF6372300D0F260E2959D94B09D60C2B878FAEE365CF4A87DF4283FCA423E955FD2F5BE5&guid=1234567890&uin=1008611&fromtag=8",
+	                pic: "http://p1.music.126.net/_dPhSlbDz23MjXUEYeBGRw==/18820340533734696.jpg?param=300x300",
+
+	            },{
+	                title: "一定不是爱情",
+	                author: "王广允",
+	                url: "http://dl.stream.qqmusic.qq.com/M500001CALYY2GT6Oy.mp3?vkey=6880211EBF800D6DC2325D5FED8F65CD8EA6BC49D947BE084851A0FAA51166425E01A57261851996EC55D7378D9E26BEFC7C4793FB585F56&guid=1234567890&uin=1008611&fromtag=8",
+	                pic: "http://p1.music.126.net/gdigFJjctaaNScvNTNJvnQ==/109951163438382741.jpg?param=130y130",
+
+	            },{
+	                title: "靠近一点点 ",
+	                author: "Lara梁心颐",
+	                url: "http://dl.stream.qqmusic.qq.com/M500003Ob2d63hfWiH.mp3?vkey=124933E9C8418D6937C5D9AE9C2168E4155C0608D9B48E9E4A71A0DB4145A35A6262F3490ABEB3B4B2833B5F2FEE334E838C7EB22469F692&guid=1234567890&uin=1008611&fromtag=8",
+	                pic: "http://i.gtimg.cn/music/photo/mid_album_500/O/W/002nj2UZ2CXwOW.jpg",
+
 	            }]
 		    })
 		    zp2.init();
