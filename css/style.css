@@ -87,6 +87,7 @@ h1 {
 	-webkit-border-radius: 15px;
 	-moz-border-radius: 15px;
 	-o-border-radius: 15px;
+	opacity: 0.8;
 }
 .head img {
 	width: 100%;
@@ -358,3 +359,6 @@ label.lbl-3 {
 	}
 }
 /*--end-responsive-design--*/
+
+		
+		

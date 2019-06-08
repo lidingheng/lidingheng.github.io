@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -24,7 +24,8 @@
 			
 			if(username=="丹丹" && password=="lidingheng"){
 				alert("输入正确")
-				return true
+				window.location.href="home.html";
+				return false
 			}else{
 				alert("输入错误")
 				return false
@@ -55,7 +56,7 @@
 	<div class="avtar">
 	<img src="images/avtar.png" width="72px" height="72px"/>
 	</div>
-	<form action="index.html"  onsubmit="return checkForm()" method="post">
+	<form  onsubmit="return checkForm()" method="post">
 		<input id="username" type="text" value="用户名:丹丹" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = '用户名:丹丹';}" >
 		<input id="password" type="text" value="密码:lidingheng"onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = '密码:lidingheng';}" >
 
